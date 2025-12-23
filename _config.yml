@@ -20,11 +20,11 @@ baseurl: ""   # MUST be empty for custom domain root
 
 navbar-links:
   Identity:
-    - Identity Governance: "https://www.markdownguide.org/basic-syntax/"
-    - Authentication: "https://beautifuljekyll.com"
-    - Authorization: "https://beautifuljekyll.com"
+    - Identity Governance: "iga"
+    - Authentication: "authn"
+    - Authorization: "authz"
   DevOps: "devops"
-  Data Science: ""
+  Data Science: "data-science"
   About: "about"
 
 ################
