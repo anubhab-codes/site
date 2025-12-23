@@ -18,6 +18,8 @@ author: Anubhab Ghosh
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
+url: "https://notes.eigenbytes.com"
+baseurl: ""   # IMPORTANT: empty for custom domain root
 
 navbar-links:
   About Me: "aboutme"
