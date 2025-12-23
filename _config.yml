@@ -137,16 +137,39 @@ kramdown:
   input: GFM
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: "_posts/identity/iga"
       type: "posts"
     values:
       layout: "post"
       comments: false
       social-share: false
-  -
-    scope:
+      categories: ["identity", "iga"]
+  - scope:
+      path: "_posts/identity/authn"
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      social-share: false
+      categories: ["identity", "authn"]
+  - scope:
+      path: "_posts/identity/authz"
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      social-share: false
+      categories: ["identity", "authz"]
+  - scope:
+      path: "_posts/devops"
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      social-share: false
+      categories: ["devops"]
+  - scope:
       path: ""
     values:
       layout: "page"
