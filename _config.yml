@@ -1,6 +1,6 @@
 ###########################################################
-### Welcome to Beautiful Jekyll!
-### Config for EigenBytes Notes (Anubhab Ghosh)
+### Beautiful Jekyll config – EigenBytes Notes
+### Owner: Anubhab Ghosh
 ###########################################################
 
 ############################
@@ -10,12 +10,12 @@
 title: "EigenBytes Notes"
 author: "Anubhab Ghosh"
 
-# Your custom domain
+# Custom domain
 url: "https://notes.eigenbytes.com"
-baseurl: ""   # IMPORTANT: keep empty for custom domain root
+baseurl: ""   # MUST be empty for custom domain root
 
 ###############################################
-# --- List of links in the navigation bar --- #
+# --- Navigation bar links --- #
 ###############################################
 
 navbar-links:
@@ -25,7 +25,6 @@ navbar-links:
   Databases: "databases"
   Security: "security"
   About: "about"
-  # Optional dropdown (keep if you want)
   Resources:
     - Markdown Guide: "https://www.markdownguide.org/basic-syntax/"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -34,8 +33,7 @@ navbar-links:
 # --- Logo --- #
 ################
 
-# Put your avatar in /assets/img/ (square image best)
-# If you don't want it, remove this line.
+# Optional avatar (remove if you don’t want it)
 avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
 
@@ -43,21 +41,18 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 
-# Put your real values here
 social-network-links:
   rss: true
-  github: "YOUR_GITHUB_USERNAME"
-  linkedin: "YOUR_LINKEDIN_USERNAME"   # just the username/slug, not full URL
-  email: "YOUR_EMAIL_OPTIONAL"         # optional; remove if you don't want it
+  github: "anubhab-codes"
+  linkedin: "anubhab-ghosh"
 
-# RSS feed description
 rss-description: "Structured technical notes on IAM, DevOps, databases, and security."
 
 ###########################
 # --- General options --- #
 ###########################
 
-# Sharing buttons on posts (turn off for a notes site)
+# Disable social sharing buttons (notes-style site)
 share-links-active:
   twitter: false
   facebook: false
@@ -65,51 +60,47 @@ share-links-active:
   vk: false
   reddit: false
 
-# Pretty footer domain label
+# Footer domain display
 url-pretty: "notes.eigenbytes.com"
 
-# Add website title to every page title
+# Page titles
 title-on-all-pages: true
 
-# Feed behaviour (notes-style)
+# Feed behavior
 excerpt_length: 40
 feed_show_excerpt: true
 feed_show_tags: true
 
-# Search in navbar
+# Enable search in navbar
 post_search: true
 
-# Edit button (turn OFF unless you want visitors to edit via GitHub)
+# Disable edit-on-GitHub button
 edit_page_button: false
 
-# Allow long submenu items
+# Allow longer submenu names
 navbar-var-length: true
 
-# SEO keywords (optional but recommended)
+# SEO keywords
 keywords: "IAM, SailPoint, IdentityIQ, DevOps, OpenShift, Kubernetes, Oracle, Security, Technical Notes"
 
 ######################################
 # --- Colours / background image --- #
 ######################################
 
-# Calmer, sharper palette (professional)
+# Use Beautiful Jekyll defaults (no custom CSS)
 page-col: "#FFFFFF"
-text-col: "#1F2933"
-link-col: "#2F5BEA"
-hover-col: "#1E40AF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
 
 navbar-col: "#FFFFFF"
-navbar-text-col: "#111827"
-navbar-border-col: "#E5E7EB"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
 
 footer-col: "#FFFFFF"
-footer-text-col: "#6B7280"
-footer-link-col: "#111827"
-footer-hover-col: "#1E40AF"
-
-# If you want custom CSS (recommended)
-site-css:
-  - "/assets/css/custom-styles.css"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
 
 #################################
 # --- Web Analytics Section --- #
@@ -117,13 +108,12 @@ site-css:
 
 # gtag: "G-XXXXXXXXXX"
 # cloudflare_analytics: ""
-# gtm: ""
 
 ####################
 # --- Comments --- #
 ####################
 
-# Notes site: keep comments off by default
+# Notes site – comments disabled
 # disqus: ""
 # giscus: {}
 
@@ -134,19 +124,15 @@ site-css:
 date_format: "%B %-d, %Y"
 
 #################################################################################
-# --- You don't need to touch anything below here (but you can if you want) --- #
+# --- System settings (leave as-is) --- #
 #################################################################################
 
-# Keep timezone aligned with you (India)
 timezone: "Asia/Kolkata"
-
 markdown: kramdown
 highlighter: rouge
 
-# URL style for posts
 permalink: /:year-:month-:day-:title/
 
-# Pagination for homepage feed
 paginate: 7
 
 kramdown:
