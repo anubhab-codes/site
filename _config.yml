@@ -35,6 +35,7 @@ navbar-links:
 avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
 
+paginate_path: "/blog/page:num/"
 #####################################
 # --- Footer social media links --- #
 #####################################
