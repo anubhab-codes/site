@@ -19,7 +19,6 @@ baseurl: ""   # MUST be empty for custom domain root
 ###############################################
 
 navbar-links:
-  Home: ""
   Identity:
     - Identity Governance: "https://www.markdownguide.org/basic-syntax/"
     - Authentication: "https://beautifuljekyll.com"
@@ -27,9 +26,6 @@ navbar-links:
   DevOps: "devops"
   Data Science: ""
   About: "about"
-  Resources:
-    - Markdown Guide: "https://www.markdownguide.org/basic-syntax/"
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
 
 ################
 # --- Logo --- #
