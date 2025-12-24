@@ -145,21 +145,13 @@ defaults:
       social-share: false
       categories: ["identity", "iga"]
   - scope:
-      path: "_posts/identity/authn"
+      path: "_posts/identity/iam"
       type: "posts"
     values:
       layout: "post"
       comments: false
       social-share: false
-      categories: ["identity", "authn"]
-  - scope:
-      path: "_posts/identity/authz"
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-      social-share: false
-      categories: ["identity", "authz"]
+      categories: ["identity", "iam"]
   - scope:
       path: "_posts/devops"
       type: "posts"
