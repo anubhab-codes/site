@@ -4,16 +4,41 @@ title: DevOps
 permalink: /devops/
 ---
 
-## Notes
+## What is DevOps?
 
-{% assign devops_posts = site.tags.devops %}
+DevOps means building and running software as one continuous flow.
 
-{% if devops_posts %}
-  {% for post in devops_posts %}
-- [{{ post.title }}]({{ post.url | relative_url }}) <small>({{ post.date | date: "%d %b %Y" }})</small>
-  {% endfor %}
-{% else %}
-No DevOps posts yet. Add `tags: [devops]` to your posts.
-{% endif %}
+Instead of one team writing code and another team struggling to run it, the same group takes responsibility from development to production.
 
 ---
+
+## Why do we need DevOps?
+
+Earlier, software delivery involved many manual steps and hand-offs. This caused:
+- Delays in releases  
+- Errors during deployments  
+- Confusion when something broke  
+
+As systems became bigger and updates became frequent, this approach stopped working. DevOps helps reduce this friction.
+
+---
+
+## How is DevOps done?
+
+DevOps is done by simplifying and automating how software is delivered. Teams usually:
+- Automate build and deployment steps  
+- Test changes early  
+- Monitor systems to know what is happening  
+- Fix issues quickly and improve the process  
+
+DevOps is not a one-time setup. It improves gradually as teams learn and remove problems.
+
+---
+
+## DevOps posts
+
+{% assign posts = site.categories.devops | sort: "date" | reverse %}
+
+{% for post in posts %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
