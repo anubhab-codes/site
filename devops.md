@@ -4,7 +4,7 @@ title: DevOps
 permalink: /devops/
 ---
 
-## Latest DevOps posts
+## Notes
 
 {% assign devops_posts = site.tags.devops %}
 
