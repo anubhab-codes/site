@@ -6,32 +6,38 @@ permalink: /identity/iga/
 
 ## What is IGA?
 
-Identity Governance and Administration focuses on **who should have access to what, and why**.  
-It ensures identities, accounts, and entitlements are properly governed across systems.
+Identity Governance and Administration focuses on managing who has access to what, and why.
+
+It ensures access is given correctly, reviewed regularly, and removed when no longer needed.
 
 ---
 
-## Why is IGA needed?
+## Why do we need IGA?
 
-As organizations grow, access sprawl becomes inevitable. Without governance:
-- Excess access accumulates
-- Compliance becomes manual and risky
-- Joiner, mover, and leaver events break
+As organizations grow, access becomes messy. Without governance:
+- People keep access they no longer need  
+- Compliance becomes manual and risky  
+- Joiner, mover, and leaver processes break  
 
-IGA brings control, visibility, and accountability.
-
----
-
-## How is IGA implemented?
-
-IGA is implemented using lifecycle workflows, access reviews, policies, and integrations with authoritative sources like HR systems and directories.
+IGA brings structure and visibility.
 
 ---
 
-## Posts on IGA
+## How is IGA done?
 
-{% assign posts = site.categories.iga | sort: "date" | reverse %}
+IGA is implemented using identity lifecycles, access reviews, and policies connected to HR systems and directories.
 
-{% for post in posts %}
+---
+
+## IGA posts
+
+{% assign posts = site.categories.iga %}
+
+{% if posts and posts.size > 0 %}
+  {% assign posts = posts | sort: "date" | reverse %}
+  {% for post in posts %}
 - [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
+  {% endfor %}
+{% else %}
+_No IGA posts yet._
+{% endif %}
