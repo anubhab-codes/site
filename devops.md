@@ -8,37 +8,40 @@ permalink: /devops/
 
 DevOps means building and running software as one continuous flow.
 
-Instead of one team writing code and another team struggling to run it, the same group takes responsibility from development to production.
+The same team takes responsibility from development to production.
 
 ---
 
 ## Why do we need DevOps?
 
-Earlier, software delivery involved many manual steps and hand-offs. This caused:
-- Delays in releases  
-- Errors during deployments  
-- Confusion when something broke  
+Manual hand-offs and separate teams caused:
+- Slow releases  
+- Deployment errors  
+- Confusion during failures  
 
-As systems became bigger and updates became frequent, this approach stopped working. DevOps helps reduce this friction.
+DevOps reduces friction and improves reliability.
 
 ---
 
 ## How is DevOps done?
 
-DevOps is done by simplifying and automating how software is delivered. Teams usually:
-- Automate build and deployment steps  
-- Test changes early  
-- Monitor systems to know what is happening  
-- Fix issues quickly and improve the process  
-
-DevOps is not a one-time setup. It improves gradually as teams learn and remove problems.
+DevOps is done by simplifying and automating delivery:
+- Automating builds and deployments  
+- Testing early  
+- Monitoring systems  
+- Improving continuously  
 
 ---
 
 ## DevOps posts
 
-{% assign posts = site.categories.devops | sort: "date" | reverse %}
+{% assign posts = site.categories.devops %}
 
-{% for post in posts %}
+{% if posts and posts.size > 0 %}
+  {% assign posts = posts | sort: "date" | reverse %}
+  {% for post in posts %}
 - [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
+  {% endfor %}
+{% else %}
+_No DevOps posts yet._
+{% endif %}
