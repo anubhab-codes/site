@@ -5,4 +5,4 @@ permalink: /data-science/
 ---
 
 ## Notes
-- Model evaluation notes (coming soon)
+- (coming soon)
