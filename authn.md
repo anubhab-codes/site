@@ -30,8 +30,14 @@ Authentication is implemented using mechanisms like passwords, MFA, certificates
 
 ## Posts on Authentication
 
-{% assign posts = site.categories.authn | sort: "date" | reverse %}
+{% assign posts = site.categories.authn %}
 
-{% for post in posts %}
+{% if posts and posts.size > 0 %}
+  {% assign posts = posts | sort: "date" | reverse %}
+  {% for post in posts %}
 - [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
+  {% endfor %}
+{% else %}
+_No posts yet. Add a post under `_posts/identity/authn/` (or set `categories: [identity, authn]`)._
+{% endif %}
+
