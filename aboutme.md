@@ -4,7 +4,7 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Anubhab Ghosh
+My name does not matter that much.
 
 - I'm extremely loyal to my family
 - Currently working on Identity problems, DevOps platforms, and applied AI.
