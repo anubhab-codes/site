@@ -20,12 +20,11 @@ baseurl: ""   # MUST be empty for custom domain root
 
 navbar-links:
   Identity:
-    - Identity Governance: "iga"
-    - Authentication: "authn"
-    - Authorization: "authz"
-  DevOps: "devops"
-  Data Science: "data-science"
-  About: "about"
+    - Acess: "/identity/iam/"
+    - Governance: "/identity/iga/"
+  DevOps: "/devops/"
+  Data Science: "/data-science/"
+  About: "/about/"
 
 ################
 # --- Logo --- #
