@@ -12,27 +12,6 @@ The same team takes responsibility from development to production.
 
 ---
 
-## Why do we need DevOps?
-
-Manual hand-offs and separate teams caused:
-- Slow releases  
-- Deployment errors  
-- Confusion during failures  
-
-DevOps reduces friction and improves reliability.
-
----
-
-## How is DevOps done?
-
-DevOps is done by simplifying and automating delivery:
-- Automating builds and deployments  
-- Testing early  
-- Monitoring systems  
-- Improving continuously  
-
----
-
 ## DevOps posts
 
 {% assign posts = site.categories.devops %}
