@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Authentication
+title: IAM
 permalink: /identity/iam/
 ---
 
