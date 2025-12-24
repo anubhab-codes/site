@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Identity Governance & Administration (IGA)
+title: IGA
 permalink: /identity/iga/
 ---
 
