@@ -4,10 +4,17 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Anubhab Ghosh
 
 - I rock a great mustache
 - I'm extremely loyal to my family
+- Currently working on Identity & Access Management, DevOps platforms, and applied AI in production systems.
+- Open to collaborating on practical problems in IAM, DevOps automation, and data-driven systems.
+- Happy to talk about Identity (IGA, Authn, Authz), DevOps, Data Science, and Agile engineering.
+- I prefer simple explanations and clear reasoning over diagrams and buzzwords.
+- Serial blunderer at chess, still learning the hard way.
+- Long-time Chelsea FC supporter — suffering builds character.
+
 
 What else do you need?
 
