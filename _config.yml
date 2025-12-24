@@ -24,7 +24,7 @@ navbar-links:
     - Governance: "/identity/iga/"
   DevOps: "/devops/"
   Data Science: "/data-science/"
-  About: "/about/"
+  About: "/aboutme/"
 
 ################
 # --- Logo --- #
