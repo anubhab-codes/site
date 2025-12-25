@@ -14,4 +14,4 @@ My name does not matter that much.
 - _Serial blunderer at chess, still learning the hard way._
 - _Long-time Chelsea FC supporter — suffering builds character._
 
-### I prefer simple explanation over articulation.
+### I prefer clarity over articulation.
