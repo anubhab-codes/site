@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why DevOps?"
-subtitle: "A simple, real deployment example (no buzzwords)"
+subtitle: "A simple, real example (no buzzwords)"
 categories: [devops]
 tags: [devops]
 ---
