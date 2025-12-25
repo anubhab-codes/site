@@ -1,3 +1,11 @@
+---
+layout: post
+title: "User Management in Linux Servers"
+subtitle: "A simple, real example"
+categories: [devops]
+tags: [devops]
+---
+
 # How Linux Server Access Is Set Up in Enterprises
 
 When an enterprise sets up its first Linux server, access control usually starts in the simplest possible way. The server runs Red Hat Enterprise Linux, the `root` user exists, and an administrator logs in directly to perform all tasks. At this stage, nothing feels wrong because only one person is using the system.
