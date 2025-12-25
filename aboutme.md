@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: This is where I share too much with people
 ---
 
 My name does not matter that much.
@@ -14,4 +14,4 @@ My name does not matter that much.
 - _Serial blunderer at chess, still learning the hard way._
 - _Long-time Chelsea FC supporter — suffering builds character._
 
-### I prefer simple explanations and clear reasoning over diagrams and buzzwords.
+### I prefer simple explanation over articulation.
