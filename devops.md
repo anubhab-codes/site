@@ -6,10 +6,7 @@ permalink: /devops/
 
 ## What is DevOps?
 
-DevOps means building and running software as one continuous flow.
-
-The same team takes responsibility from development to production.
-
+DevOps means building and running software as one continuous flow. The same team takes responsibility from development to production.
 ---
 
 ## Learning Path
