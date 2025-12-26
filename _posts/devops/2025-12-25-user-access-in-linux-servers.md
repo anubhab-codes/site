@@ -4,6 +4,7 @@ title: "User Management in Linux Servers"
 subtitle: "A simple, real example"
 categories: [devops]
 tags: [devops]
+topic: linux
 ---
 
 # How Linux Server Access Is Set Up in Enterprises
