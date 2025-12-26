@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Linux use cases and usage"
-subtitle: "A simpler Linx Guide"
+title: "Functional use cases"
+subtitle: "A simpler Linux Guide"
 categories: [devops]
 tags: [devops]
 topic: linux
