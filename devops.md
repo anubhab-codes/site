@@ -12,15 +12,25 @@ The same team takes responsibility from development to production.
 
 ---
 
-## DevOps posts
+## Learning Path
 
-{% assign posts = site.categories.devops %}
+- **Prerequisites**
+  - **Linux**
+    {% assign posts = site.posts | where_exp: "p", "p.categories contains 'devops'" | where: "topic", "linux" %}
+    {% if posts %}
+      {% for post in posts %}
+    - [{{ post.title }}]({{ post.url | relative_url }})
+      {% endfor %}
+    {% else %}
+    - _No posts yet._
+    {% endif %}
 
-{% if posts and posts.size > 0 %}
-  {% assign posts = posts | sort: "date" | reverse %}
-  {% for post in posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
-  {% endfor %}
-{% else %}
-_No DevOps posts yet._
-{% endif %}
+  - **Networking**
+    {% assign posts = site.posts | where_exp: "p", "p.categories contains 'devops'" | where: "topic", "networking" %}
+    {% if posts %}
+      {% for post in posts %}
+    - [{{ post.title }}]({{ post.url | relative_url }})
+      {% endfor %}
+    {% else %}
+    - _No posts yet._
+    {% endif %}
