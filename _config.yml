@@ -1,5 +1,5 @@
 ###########################################################
-### Beautiful Jekyll config – EigenBytes Notes
+### Beautiful Jekyll config – EigenBytes
 ### Owner: Anubhab Ghosh
 ###########################################################
 
@@ -11,7 +11,7 @@ title: "EigenBytes"
 author: "Anubhab Ghosh"
 
 # Custom domain
-url: "https://notes.eigenbytes.com"
+url: "https://eigenbytes.com"
 baseurl: ""   # MUST be empty for custom domain root
 
 ###############################################
@@ -19,11 +19,7 @@ baseurl: ""   # MUST be empty for custom domain root
 ###############################################
 
 navbar-links:
-  Identity:
-    - Acess: "/identity/iam/"
-    - Governance: "/identity/iga/"
-  DevOps: "/devops/"
-  Data Science: "/data-science/"
+  Notes: "https://notes.eigenbytes.com"
   About: "/aboutme/"
 
 ################
@@ -58,7 +54,7 @@ share-links-active:
   reddit: false
 
 # Footer domain display
-url-pretty: "notes.eigenbytes.com"
+url-pretty: "eigenbytes.com"
 
 # Page titles
 title-on-all-pages: true
@@ -136,30 +132,6 @@ kramdown:
   input: GFM
 
 defaults:
-  - scope:
-      path: "_posts/identity/iga"
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-      social-share: false
-      categories: ["identity", "iga"]
-  - scope:
-      path: "_posts/identity/iam"
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-      social-share: false
-      categories: ["identity", "iam"]
-  - scope:
-      path: "_posts/devops"
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-      social-share: false
-      categories: ["devops"]
   - scope:
       path: ""
     values:
