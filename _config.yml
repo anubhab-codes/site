@@ -27,7 +27,7 @@ navbar-links:
 ################
 
 # Optional avatar (remove if you don’t want it)
-avatar: "/assets/img/IMG-20221023-WA0005.jpg"
+avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
 
 #####################################
