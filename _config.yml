@@ -29,6 +29,7 @@ navbar-links:
 # Optional avatar (remove if you don’t want it)
 avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
+favicon: "/assets/img/favicon.png"
 
 #####################################
 # --- Footer social media links --- #
