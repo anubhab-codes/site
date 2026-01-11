@@ -1,5 +1,5 @@
 ---
 layout: page
 title: EigenBytes
-subtitle: Clarity over Articulation. Always.
+subtitle: Clarity over articulation. Always.
 ---
